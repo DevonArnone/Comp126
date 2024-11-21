@@ -26,7 +26,7 @@
 .color-transition {
     background-image: linear-gradient(90deg, rgb(136,156,168) 0%, rgb(29,43,56) 30%);
     border: none;
-    width: 101%;
+    width: 100%;
     padding: 10px;
     height: 40px;
     background-size: 200% 100%;

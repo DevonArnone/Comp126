@@ -23,7 +23,7 @@ body {
 .logo{
     width: 100px;
     height: 100px;
-    background-image:url("Photos/Logo.webp");
+    background-image:url("../Photos/Logo.webp");
     background-size: cover;
 }
 

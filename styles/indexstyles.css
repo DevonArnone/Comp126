@@ -88,11 +88,12 @@ body {
     font-size: xx-large;
     grid-row: 1/2;
     grid-column: 1/4;
+    padding:50px;
 }
 .section_1{
     display:flex;
-    margin:10px;
-    padding:10px;
+    margin:50px;
+    padding:25px;
     border-radius: 15px;
     grid-row:2/4;
     grid-column:1/4;
@@ -110,6 +111,7 @@ footer{
     height:50px;
     padding:10px;
     align-items: center;
-    justify-items: center
+    justify-items: center;
+    font-family: "Goblin One", "Times New Roman";
 }
 

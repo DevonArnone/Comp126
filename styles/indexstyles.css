@@ -18,6 +18,7 @@ body {
     background-color: rgb(136,156,168);
     padding-right:15px;
     border-bottom: solid rgb(29,43,56) ;
+    font-family: "Goblin One", "Times New Roman";
 }
 .logo{
     width: 100px;
@@ -80,7 +81,7 @@ body {
 }
 .top_section{
     display:flex;
-    font-family:Arial, sans-serif;
+    font-family: "Goblin One", 'Times New Roman';
     color:rgb(239,243,245);
     justify-content: center;
     align-items: center;
@@ -111,3 +112,4 @@ footer{
     align-items: center;
     justify-items: center
 }
+

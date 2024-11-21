@@ -111,6 +111,7 @@ footer{
     height:50px;
     padding:10px;
     align-items: center;
-    justify-items: center
+    justify-items: center;
+    font-family: "Goblin One", "Times New Roman";
 }
 

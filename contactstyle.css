@@ -38,10 +38,6 @@
     color: white
 }
 
-.form input {
-    margin: 5px
-}
-
 .color-transition:hover {
     background-position: 100% 0; 
 }

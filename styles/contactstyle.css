@@ -45,3 +45,14 @@
 .formtitle {
     padding-bottom: 10px   
 }
+
+
+@media screen and (min-width: 700px) {
+    main{
+      display: flex;
+      flex-direction: row;
+    }
+    .form{
+        width: 60%;
+      }
+    }

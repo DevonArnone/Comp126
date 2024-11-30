@@ -3,15 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    font-family: "Goblin One", 'Times New Roman';
-}
-
-body {
-    font-family: "hepta slab", sans-serif;
-}
-
-
 .main_section{
     display:grid;
     grid-template-columns: repeat(2,1fr);
@@ -21,7 +12,6 @@ body {
 }
 .top_section{
     display:flex;
-    font-family: "Goblin One", 'Times New Roman';
     color:rgb(239,243,245);
     justify-content: center;
     align-items: center;
@@ -55,7 +45,6 @@ footer{
     padding:10px;
     align-items: center;
     justify-items: center;
-    font-family: "Goblin One", "Times New Roman";
 }
 
 

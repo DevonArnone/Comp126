@@ -78,6 +78,7 @@
     font-size: xx-large;
     grid-row: 1/2;
     grid-column: 1/4;
+    padding:20px;
 }
 .section{
     display:flex;

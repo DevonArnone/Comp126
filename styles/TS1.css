@@ -18,4 +18,10 @@
     background-color:rgb(29,43,56);
     height: 300px;
     color:rgb(239,243,245);
+    font-size: larger;
+    overflow: auto;
+}
+img{
+    border-radius:15px;
+    margin:10px;
 }

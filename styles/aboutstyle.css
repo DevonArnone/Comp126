@@ -1,7 +1,7 @@
 
 .section_1{
     display:flex;
-    margin:10px;
+    margin: 50px 10px 10px 50px;
     padding:10px;
     border-radius: 15px;
     grid-column: 1/2;
@@ -12,7 +12,7 @@
 }
 .section_2{
     display:flex;
-    margin:10px;
+    margin:10px 10px 10px 50px;
     padding:10px;
     border-radius: 15px;
     grid-column: 1/2;
@@ -23,7 +23,7 @@
 }
 .section_3{
     display:flex;
-    margin:10px;
+    margin:50px 50px 10px 10px;
     padding:10px;
     border-radius: 15px;
     grid-column: 2/3;
@@ -34,7 +34,7 @@
 }
 .section_4{
     display:flex;
-    margin:10px;
+    margin:10px 50px 10px 10px;
     padding:10px;
     border-radius: 15px;
     grid-column: 2/3;
@@ -42,4 +42,7 @@
     background-color: rgb(29,43,56);
     height: 300px;
     color:rgb(239,243,245);
+}
+img{
+    border-radius: 15px;
 }

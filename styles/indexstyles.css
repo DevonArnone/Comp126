@@ -46,4 +46,46 @@ footer{
     justify-items: center;
 }
 
+.pictures {
+    display: flex; 
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+  }
+  
+  .column {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #first {
+    background-image: url('Photos/Apple-Crisp-197.jpg');
+    border-radius: 5px;
+  }
+  
+  #second {
+    background-image: url("Photos/burger.jpg");
+    border-radius: 5px;
+  }
+  
+  #third {
+    background-image: url("Photos/Steak_Hasselback.webp");
+    border-radius: 5px;
+  }
 
+  .column {
+    background-size: cover; /* Adjusts the size of the background image to cover the entire column */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+  }
+  
+  .column:hover{
+    transform-origin:top bottom;
+    animation: scale 1000ms ease-in-out forwards;
+  }
+  
+  @keyframes scale {
+    to {
+      transform: scale(1.04);
+    }
+  }

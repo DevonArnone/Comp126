@@ -103,7 +103,7 @@
 }
 
 .recipe_img:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 .apple_img {
@@ -117,7 +117,7 @@
 }
 
 .apple_img:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 footer{

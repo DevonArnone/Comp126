@@ -95,7 +95,9 @@
 .recipe_img{
     width: 205px;
     border-radius:15px;
+    height: 275px;
     max-width: 500px; 
+    margin-left: 15px;
     cursor: pointer; 
     transition: transform 0.3s ease
 }
@@ -115,7 +117,7 @@
 }
 
 .apple_img:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 footer{

@@ -102,9 +102,9 @@ footer{
     margin-bottom: 10px;
     border: 2px solid black;
     border-radius: 5px;
-  }
-  
-  .mailing {
+}
+
+.mailing {
     display: grid;
     grid-area: form;
     background-color: white;
@@ -112,16 +112,16 @@ footer{
     padding: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
-  }
-  
-  .mailing input:focus {
+}
+
+.mailing input:focus {
     border-color: black;
     outline: none;
     -webkit-box-shadow: inset 0 3px 3px rgba(0,0,0,.075), 0 0 15px #D83F31;
-  box-shadow: inset 0 3px 3px rgba(0,0,0,.075), 0 0 3px #D83F31;
-  }
-  
-  .color-transition {
+box-shadow: inset 0 3px 3px rgba(0,0,0,.075), 0 0 3px #D83F31;
+}
+
+.color-transition {
     background-image: linear-gradient(90deg, grey 0%, rgb(136,156,168) 30%);
     border: none;
     width: 100%;
@@ -134,13 +134,13 @@ footer{
     text-transform: uppercase;
     font-weight: bold;
     color: whitesmoke
-  }
-  
-  .color-transition:hover {
-    background-position: 100% 0; 
-  }
+}
 
-  .mission{
+.color-transition:hover {
+    background-position: 100% 0; 
+}
+
+.mission{
     display:flex;
     margin:0px;
     padding: 25px;
@@ -149,39 +149,39 @@ footer{
     color:rgb(239,243,245);
     text-align: center;
     font-size:x-large;
-  }
+}
 
-  .para {
+.para {
     text-align: center;
     font-size: large;
-  }
+}
 
-  .welcome{
+.welcome{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin: 20px;
     padding: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 6px blacl;
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  h2{
+}
+
+h2{
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
-  }
-  
-  .welcome p{
+}
+
+.welcome p{
     display: flex;
     justify-content: center;
     font-size: 18px;
     margin-top: 20px;
-  }
-  
-  .button1 { 
+}
+
+.button1 { 
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -200,17 +200,17 @@ footer{
     margin: auto;
     font-weight: bold;
     margin-top: 10px
-  }
-  
-  #learn_button{
+}
+
+#learn_button{
     text-decoration: none;
-  }
-  
-  .button1:hover{
+}
+
+.button1:hover{
     background-color: grey;
     color: white;
     transition: all 350ms;
-  }
+}
 
 @media screen and (min-width: 915px) {
 
@@ -274,13 +274,13 @@ footer{
         text-transform: uppercase;
         font-weight: bold;
         color: whitesmoke
-      }
-
-      #name{
-        margin-bottom: 50px
-      }
-
-      #email{
-        margin-bottom: 100px
-      }
     }
+
+    #name{
+        margin-bottom: 50px
+    }
+
+    #email{
+        margin-bottom: 100px
+    }
+}

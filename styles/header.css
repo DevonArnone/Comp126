@@ -94,6 +94,34 @@ a:hover{
     font-family: "Goblin One", 'Times New Roman';
 }
 
+h1{
+    font-family: "goblin one";
+    font-weight: bold
+}
+
+h2{
+    font-family: "goblin one";
+    font-weight: bold
+}
+
+h3{
+    font-family: "goblin one"
+}
+
+h4{
+    font-family: "goblin one"
+}
+
+p{
+    font-family: "hepta slab";
+    font-size: 18pt
+}
+
+li{
+    font-family: "hepta slab";
+    font-size: 15pt
+}
+
 @font-face {
     font-family: "responsivenav";
     src: url("../icons/responsivenav.eot");

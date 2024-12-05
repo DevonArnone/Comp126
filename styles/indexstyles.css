@@ -3,6 +3,12 @@ html,body {
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px
+}
 .main_section{
     display:grid;
     grid-template-columns: repeat(2,1fr);
@@ -136,8 +142,8 @@ footer{
 
   .mission{
     display:flex;
-    margin:50px;
-    padding:25px;
+    margin:0px;
+    padding: 25px;
     border-radius: 15px; 
     background-color:rgb(29,43,56);
     color:rgb(239,243,245);
@@ -205,7 +211,6 @@ footer{
     transition: all 350ms;
   }
 
-
 @media screen and (min-width: 915px) {
 
     /*picture info*/
@@ -225,20 +230,7 @@ footer{
         margin: 10px;
     }
     
-    .title_info{
-        display: flex;
-        color: white;
-        font-size: 4em;
-        text-align: center;
-    }
-    
-    #title{
-        display: flex;
-        justify-content: center;
-        color: white;
-        text-align: center;
-        font-size: 2em;
-    }
+
 
     .mailing{
         width: 60%
@@ -261,4 +253,33 @@ footer{
     .button1{
         margin-top: 35px;
     }
+
+    main{
+        display:flex;
+        flex-direction: row;
+
+    }
+
+    .color-transition {
+        background-image: linear-gradient(90deg, grey 0%, rgb(136,156,168) 30%);
+        border: none;
+        width: 101%;
+        padding: 10px;
+        height: 40px;
+        background-size: 200% 100%;
+        background-position: 0 0; 
+        transition: background-position 0.7s;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: whitesmoke
+      }
+
+      #name{
+        margin-bottom: 50px
+      }
+
+      #email{
+        margin-bottom: 100px
+      }
     }

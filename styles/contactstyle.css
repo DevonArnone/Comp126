@@ -20,12 +20,12 @@
     padding: 25px;
     box-shadow: 0 0px 6px black;
     margin-bottom: 10px;
-  }
+}
 
-  .form-box{
+.form-box{
     display:grid;
     padding: 20px 30px 30px 20px
-  }
+}
 
 .form input:focus {
     border-color: black;
@@ -66,75 +66,75 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  .welcome-image{
-      display: grid;
-      grid-column: span(1);
-      grid-row: inherit;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      margin: 20px;
-      padding: 25px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-      margin-bottom: 10px;
-      text-align: center;
-    }
-  
-  img{
-      width: 100%;
-  }
-  
-  h2{
+}
+
+.welcome-image{
+    display: grid;
+    grid-column: span(1);
+    grid-row: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
-  }
-  
-  
-  .welcome p{
+}
+
+
+.welcome p{
     display: flex;
     justify-content: center;
     font-size: 18px;
     margin-top: 20px;
-  }
+}
 
-  .welcome-image:hover{
+.welcome-image:hover{
     transform-origin:top bottom;
     animation: scale 1000ms ease-in-out forwards;
-  }
+}
 
-  main{
+main{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-  }
-  
+}
+
 
 
 @media screen and (min-width: 915px) {
     main{
-      display: flex;
-      flex-direction: row;
+        display: flex;
+        flex-direction: row;
     }
     .form{
         width: 60%;
-      }
+    }
 
-      .welcome{
+    .welcome{
         width: 40%;
         margin: auto;
         margin-top: 20px; 
         margin-bottom: 10px; 
         margin-left: 20px;
         padding: 60px;
-      }
+    }
     
-      .welcome p{
+    .welcome p{
         margin-top: 10px;
         margin-bottom: -20px;
-      }
+    }
     }

@@ -17,14 +17,16 @@ body {
     align-items: center; 
     padding: 20px;
     background-color: rgb(136, 156, 168);
-    flex: 1; 
+    flex: 1;
+    height: 100vh; 
 }
 
 .top_section {
     text-align: center;
     color: rgb(239, 243, 245);
-    font-size: large;
+    font-size: 40px;
     margin-bottom: 20px;
+
 }
 
 .section {
@@ -37,7 +39,11 @@ body {
     background-color: rgb(29, 43, 56); 
     padding: 20px; 
     border-radius: 15px;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .recipe_img {
     width: 100%; 

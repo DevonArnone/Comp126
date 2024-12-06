@@ -21,6 +21,18 @@
 h3{margin-top: 10px;
 margin-bottom: px}
 
+.main_row_section {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 30px; 
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
 .section_1, .section_2, .section_3, .section_4 {
     display: flex;
     flex-direction: column;
@@ -53,20 +65,28 @@ footer {
 
 @media (min-width: 768px) {
     .main_section {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto auto;
+    }
+
+    .main_row_section {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 50px repeat(2, 1fr);
-        gap: 5px;
+        grid-template-rows: 50px  1fr;
+        width: 90%;
     }
 
     .top_section {
         font-size: 40px;
-        padding: 50px;
+        padding: 10px;
     }
 
     .section_1, .section_2, .section_3, .section_4 {
         flex-direction: column; 
         align-items: center; 
         text-align: left;
+        height: 600px;
     }
 
     img {

@@ -148,4 +148,8 @@ main{
     .formtitle{
         text-align: center
     }
+
+    .form-box h2{
+        text-align: center;
+    }
     }

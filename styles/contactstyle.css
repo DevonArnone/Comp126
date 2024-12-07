@@ -144,4 +144,8 @@ main{
         margin-top: 10px;
         margin-bottom: -20px;
     }
+
+    .formtitle{
+        text-align: center
+    }
     }

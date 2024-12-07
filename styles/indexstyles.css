@@ -73,12 +73,12 @@ footer{
 }
 
 #second {
-    background-image: url("/Photos/burger.jpg");
+    background-image: url("../Photos/burger.jpg");
     border-radius: 5px;
 }
 
 #third {
-    background-image: url("/Photos/Steak_Hasselback.png");
+    background-image: url("../Photos/Steak_Hasselback.png");
     border-radius: 5px;
 }
 

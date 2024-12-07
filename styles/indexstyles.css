@@ -65,17 +65,17 @@ footer{
 }
 
 #first {
-    background-image: url("Photos/Apple-Crisp-197.jpg");
+    background-image:url("Photos/Logo.webp");
     border-radius: 5px;
 }
 
 #second {
-    background-image: url("Photos/burger.jpg");
+    background-image: url("/Photos/burger.jpg");
     border-radius: 5px;
 }
 
 #third {
-    background-image: url("Photos/Steak_Hasselback.webp");
+    background-image: url("/Photos/Steak_Hasselback.webp");
     border-radius: 5px;
 }
 

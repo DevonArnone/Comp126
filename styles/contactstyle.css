@@ -53,6 +53,9 @@
     background-position: 100% 0; 
 }
 
+.formtitle{
+    text-align: center
+}
 
 .welcome{
     display: grid;
